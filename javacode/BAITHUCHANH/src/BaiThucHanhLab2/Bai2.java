@@ -6,7 +6,7 @@ public class Bai2 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("nhap a: ");
+        System.out.print("Nhap mot so bat ky: ");
         a = sc.nextInt();
 
         if (a % 2 == 0) {
