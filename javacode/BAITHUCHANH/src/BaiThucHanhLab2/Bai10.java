@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Bai10 {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         String chuoi;
         char kyTu;
         int count = 0;
