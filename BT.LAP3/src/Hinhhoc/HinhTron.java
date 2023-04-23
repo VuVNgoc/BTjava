@@ -1,31 +1,33 @@
-package Hinhhoc;
+package HinhHoc;
 
 import java.util.Scanner;
 
 public class HinhTron extends HinhHoc {
-    public float bk;
+    private float bk;
+
+    public float getBanKinh() {
+        return bk;
+    }
+
+    public void setBanKinh(float bk) {
+        this.bk = bk;
+    }
 
     public HinhTron() {
-        ten = "Hinh Tron";
+        super.setTen("Hinh Tron");
     }
 
-    public void nhapBanKinh() {
-        System.out.print("Ban kinh = ");
-        Scanner sc = new Scanner(System.in);
-        bk = sc.nextFloat();
+    public void nhapBanKinh(Scanner sc) {
+        System.out.print("Nhap ban kinh : ");
+        setBanKinh(sc.nextFloat());
     }
 
-    public void nhapChuvi() {
-        System.out.println("Chu vi = " + cv);
-        Scanner sc = new Scanner(System.in);
-        cv = sc.nextFloat();
+    public void TinhChuVi() {
+        cv = 2 * super.getPI() * bk;
+        super.setChuVi(cv);
     }
 
-    public void tinhChuVi() {
-        cv = 2 * PI * bk;
-    }
-
-    public void tinhDientich() {
-        dt = PI * bk * bk;
+    public void TinhDienTich() {
+        dt = super.getPI() * bk * bk;
     }
 }
