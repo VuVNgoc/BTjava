@@ -1,8 +1,10 @@
 package Lists;
 
 import java.util.Scanner;
+
+import All.Student;
+
 import java.util.ArrayList;
-import Student.Student;
 
 public class ArrListDemo {
     public static void main(String[] args) {

@@ -2,13 +2,14 @@ package Lists;
 
 import java.util.LinkedList;
 import java.util.Scanner;
-import Student.Student;
+
+import All.Student;
 
 public class LinkedListDemo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         LinkedList<Student> std = new LinkedList<>();
-        Models.Student st = new Student();
+        All.Student st = new Student();
 
         do {
             System.out.println("===Quan ly sinh vien===");
