@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import All.Student;
+
 public class Student {
     Scanner sc = new Scanner(System.in);
     private int Masv, namsinh, tuoi;
